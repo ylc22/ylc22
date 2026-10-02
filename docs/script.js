@@ -10,9 +10,10 @@ const cities=[
 ];
 
 const map=L.map('mapCanvas',{zoomControl:false,worldCopyJump:true,minZoom:2}).setView([35,-35],2);L.control.zoom({position:'bottomright'}).addTo(map);
-const satellite=L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors'}).addTo(map);
+const satellite=L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community'}).addTo(map);
+const labels=L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Labels © Esri'}).addTo(map);
 const markers=[];cities.forEach((c,i)=>{const marker=L.circleMarker(c.coords,{radius:8,color:'#65d6ff',weight:2,fillColor:'#4da3ff',fillOpacity:.9}).addTo(map).bindPopup(`<strong>${c.name}</strong><br>${c.years}`);markers.push(marker)});
-const route=L.polyline(cities.map(c=>c.coords),{color:'#65d6ff',weight:2,opacity:.75,dashArray:'7,10'}).addTo(map);
+const route=L.polyline(cities.map(c=>c.coords),{color:'#65d6ff',weight:2,opacity:.85,dashArray:'7,10'}).addTo(map);
 const heat=L.heatLayer(cities.map(c=>[...c.coords,c.weight]),{radius:42,blur:30,maxZoom:5,gradient:{0.2:'#0d3154',0.45:'#146ea8',0.7:'#32b7d8',1:'#a6f4ff'}});
 const cityList=document.getElementById('cityList');cities.forEach((c,i)=>{const b=document.createElement('button');b.className='city-btn';b.innerHTML=`<span>${c.name}</span><small>${c.years}</small>`;b.addEventListener('click',()=>{map.flyTo(c.coords,c.zoom,{duration:1.6});markers[i].openPopup()});cityList.appendChild(b)});
 document.querySelectorAll('.map-mode').forEach(btn=>btn.addEventListener('click',()=>{document.querySelectorAll('.map-mode').forEach(x=>x.classList.remove('active'));btn.classList.add('active');if(btn.dataset.mode==='heat'){if(map.hasLayer(route))map.removeLayer(route);markers.forEach(m=>map.removeLayer(m));heat.addTo(map);map.flyTo([28,-20],2,{duration:1.2})}else{if(map.hasLayer(heat))map.removeLayer(heat);markers.forEach(m=>m.addTo(map));route.addTo(map);map.flyTo([35,-35],2,{duration:1.2})}}));
