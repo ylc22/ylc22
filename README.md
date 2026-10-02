@@ -1,5 +1,10 @@
 <h1 align="center">Luis Chan</h1>
-<p align="center"><b>Computational Biology · Machine Learning · Bioinformatics</b></p>
+<p align="center"><b>Yale University MS Computational Biology & Bioinformatics · University of Washington BS Biochemistry & Data Science · Machine Learning · Bioinformatics</b></p>
+
+<p align="center">
+  <a href="https://github.com/ylc22">GitHub: ylc22</a> ·
+  <a href="https://leetcode.com/u/luischan22/">LeetCode: luischan22</a>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ylc22&label=Profile%20Views" alt="profile views" />
@@ -7,30 +12,32 @@
 
 ## 👋 About Me
 
-I’m a Yale computational biology graduate with a background spanning **biochemistry, data science, machine learning, and life-sciences platforms**. I’ve worked across protein design, protein ML, healthcare/bioinformatics infrastructure, and client-facing technical solutions — including experience at the **Baker Lab / Institute for Protein Design, OpenProtein.AI, Shape Therapeutics, Domino Data Lab**, and bioinformatics/AI work supporting NIH-facing workflows.
+I’m **Luis Chan**, a **Yale University** computational biology graduate with a background spanning **biochemistry, data science, machine learning, and life-sciences platforms**. I completed my undergraduate degree at the **University of Washington**, studying **Biochemistry** with a **Data Science** minor, and later earned my MS at Yale in **Computational Biology & Bioinformatics**.
+
+I’ve worked across protein design, protein ML, healthcare/bioinformatics infrastructure, and client-facing technical solutions — including experience at the **Baker Lab / Institute for Protein Design, OpenProtein.AI, Shape Therapeutics, Domino Data Lab**, and bioinformatics/AI work supporting NIH-facing workflows.
 
 I’m especially interested in building practical tools at the intersection of **biology + ML + product**, where strong science, clear software, and real-world usability all matter.
 
 ## 🧠 GitHub Snapshot
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ylc22&show_icons=true&hide_border=true&include_all_commits=true&count_private=false" alt="Luis's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ylc22&layout=compact&hide_border=true&langs_count=6" alt="Top languages" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ylc22&show_icons=true&hide_border=true&include_all_commits=true&count_private=false" alt="Luis Chan GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ylc22&layout=compact&hide_border=true&langs_count=6" alt="Luis Chan top languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ylc22&hide_border=true" alt="GitHub streak" />
+  <img src="https://streak-stats.demolab.com?user=ylc22&hide_border=true" alt="Luis Chan GitHub streak" />
 </p>
 
 ## 📈 Contribution Activity
 
-[![Luis's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ylc22&hide_border=true&area=true)](https://github.com/ylc22)
+[![Luis Chan GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ylc22&hide_border=true&area=true)](https://github.com/ylc22)
 
 ## 🧩 LeetCode
 
 <p align="center">
   <a href="https://leetcode.com/u/luischan22/">
-    <img src="https://leetcard.jacoblin.cool/luischan22?theme=light&font=Karma&ext=heatmap" alt="LeetCode stats" />
+    <img src="https://leetcard.jacoblin.cool/luischan22?theme=light&font=Karma&ext=heatmap" alt="Luis Chan LeetCode stats" />
   </a>
 </p>
 
@@ -64,3 +71,7 @@ When I’m not working on biology or ML, I’m usually doing something competiti
 > “The credit belongs to the man who is actually in the arena.” — Theodore Roosevelt
 
 I like this because it’s a good reminder to choose action, effort, and learning over staying on the sidelines.
+
+---
+
+**Search terms:** Luis Chan Yale · Luis Chan Yale University · Luis Chan University of Washington · Luis Chan computational biology · Luis Chan bioinformatics · Luis Chan machine learning · ylc22 GitHub
