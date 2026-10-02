@@ -12,7 +12,7 @@
 
 ## 👋 About Me
 
-I’m **Luis Chan**, a **Yale University** computational biology graduate with a background spanning **biochemistry, data science, machine learning, and life-sciences platforms**. I completed my undergraduate degree at the **University of Washington**, studying **Biochemistry** with a **Data Science** minor, and later earned my MS at Yale in **Computational Biology & Bioinformatics**.
+I’m **Luis Chan**, a **Yale University** computational biology graduate with a background spanning **biochemistry, data science, machine learning, and life-sciences platforms**. I completed my undergraduate degree at the **University of Washington**, studying **Biochemistry and Data Science**, and later earned my MS at Yale in **Computational Biology & Bioinformatics**.
 
 I’ve worked across protein design, protein ML, healthcare/bioinformatics infrastructure, and client-facing technical solutions — including experience at the **Baker Lab / Institute for Protein Design, OpenProtein.AI, Shape Therapeutics, Domino Data Lab**, and bioinformatics/AI work supporting NIH-facing workflows.
 
