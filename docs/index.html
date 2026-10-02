@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luis Chan — Computational Biology, ML & Bioinformatics</title>
+  <meta name="description" content="Luis Chan — Yale computational biology graduate, University of Washington biochemistry & data science alumnus, working across machine learning, bioinformatics, protein design, and scientific products." />
+  <meta name="keywords" content="Luis Chan, Yale, University of Washington, computational biology, bioinformatics, machine learning, protein design, GitHub ylc22" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <nav class="nav">
+    <a class="brand" href="#top">LC</a>
+    <div class="nav-links">
+      <a href="#story">Story</a><a href="#map">Map</a><a href="#work">Work</a><a href="#projects">Projects</a><a href="#life">Life</a>
+    </div>
+    <a class="pill small" href="https://github.com/ylc22" target="_blank">GitHub ↗</a>
+  </nav>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-grid">
+        <div>
+          <div class="eyebrow">Yale MS · UW BS · Biology × ML × Product</div>
+          <h1>Luis Chan</h1>
+          <p class="lede">I build at the intersection of <span>computational biology</span>, <span>machine learning</span>, and <span>scientific products</span> — from protein design and biomedical AI to bioinformatics platforms and technical solutions.</p>
+          <div class="cta-row">
+            <a class="pill" href="#story">Explore my journey ↓</a>
+            <a class="pill ghost" href="https://leetcode.com/u/luischan22/" target="_blank">LeetCode ↗</a>
+          </div>
+          <div class="mini-facts">
+            <span>📍 Washington, DC</span><span>🎓 Yale + UW</span><span>🧬 Computational Biology</span><span>⚙️ ML / Product / Solutions</span>
+          </div>
+        </div>
+        <div class="orbital-card" aria-label="Animated career constellation">
+          <div class="orbit orbit-1"></div><div class="orbit orbit-2"></div><div class="orbit orbit-3"></div>
+          <div class="planet core">LC</div>
+          <div class="satellite s1">Protein ML</div>
+          <div class="satellite s2">Bioinformatics</div>
+          <div class="satellite s3">AI</div>
+          <div class="satellite s4">Product</div>
+          <div class="satellite s5">Science</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="story" class="section">
+      <div class="section-head">
+        <div><div class="eyebrow">MOVING TIMELINE</div><h2>A career in motion</h2></div>
+        <p>From biochemistry to protein ML, from research to client-facing platforms — each stop added a different layer.</p>
+      </div>
+      <div class="timeline-shell">
+        <div class="timeline-line"><div class="timeline-progress" id="timelineProgress"></div></div>
+        <article class="timeline-card reveal" data-year="2020"><div class="dot"></div><span>2020–2024</span><h3>University of Washington</h3><p>BS Biochemistry, Data Science minor, Departmental Honors. Shifted from pre-med toward quantitative biology and ML.</p><div class="tags"><b>Biochemistry</b><b>Data Science</b><b>Protein Design</b></div></article>
+        <article class="timeline-card reveal" data-year="2023"><div class="dot"></div><span>2023</span><h3>Protein ML & Research</h3><p>Worked at an MIT biotech spinout on protein machine learning and trained through the UW Institute for Protein Design ecosystem.</p><div class="tags"><b>Protein ML</b><b>Python</b><b>Research</b></div></article>
+        <article class="timeline-card reveal" data-year="2024"><div class="dot"></div><span>2024</span><h3>Shape Therapeutics</h3><p>Computational protein design work on AAV capsids and therapeutic protein engineering.</p><div class="tags"><b>AAV</b><b>Protein Design</b><b>Therapeutics</b></div></article>
+        <article class="timeline-card reveal" data-year="2024"><div class="dot"></div><span>2024–2026</span><h3>Yale University</h3><p>MS in Computational Biology & Bioinformatics. Built interpretable ML for autoreactive TCRs and autoimmune disease research.</p><div class="tags"><b>Computational Biology</b><b>Autoimmunity</b><b>Interpretable ML</b></div></article>
+        <article class="timeline-card reveal" data-year="2025"><div class="dot"></div><span>2025</span><h3>Domino Data Lab</h3><p>Life sciences solutions engineering: ML pipelines, demos, model serving, and scientific workflows for enterprise users.</p><div class="tags"><b>MLOps</b><b>Solutions</b><b>Life Sciences</b></div></article>
+        <article class="timeline-card reveal" data-year="2026"><div class="dot"></div><span>2026</span><h3>Bioinformatics & AI Platforms</h3><p>Worked on NIH-facing workflows spanning bioinformatics, clinical data, Nextflow, ETL, and cloud deployments across AWS/Azure.</p><div class="tags"><b>Nextflow</b><b>Cloud</b><b>NIH</b></div></article>
+      </div>
+    </section>
+
+    <section id="map" class="section map-section">
+      <div class="section-head">
+        <div><div class="eyebrow">PLACES THAT SHAPED ME</div><h2>Hong Kong → Seattle → New Haven → Washington, DC</h2></div>
+        <p>Use the controls, zoom into each city, and switch between the route and heat view. Satellite imagery gives the journey a literal geography.</p>
+      </div>
+      <div class="map-wrap">
+        <div id="mapCanvas"></div>
+        <div class="map-panel">
+          <button class="map-mode active" data-mode="route">Route</button>
+          <button class="map-mode" data-mode="heat">Heat</button>
+          <div class="city-list" id="cityList"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head"><div><div class="eyebrow">EXPERIENCE</div><h2>Science, systems, and people</h2></div><p>I like roles where technical depth and communication matter equally.</p></div>
+      <div class="grid cards">
+        <article class="card reveal"><div class="icon">🧬</div><h3>Computational Biology</h3><p>Autoimmune disease, TCR modeling, protein design, AAV capsids, and interpretable ML.</p></article>
+        <article class="card reveal"><div class="icon">🤖</div><h3>Machine Learning</h3><p>PyTorch, TensorFlow, scikit-learn, evaluation, calibration, explainability, and end-to-end model workflows.</p></article>
+        <article class="card reveal"><div class="icon">🛠️</div><h3>Scientific Platforms</h3><p>Nextflow, nf-core, cloud deployments, MLOps, ETL, and reproducible bioinformatics infrastructure.</p></article>
+        <article class="card reveal"><div class="icon">🤝</div><h3>Solutions & Product</h3><p>Client-facing technical work, demos, scientific storytelling, translating needs into usable platform workflows.</p></article>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-head"><div><div class="eyebrow">SELECTED BUILDS</div><h2>Projects</h2></div><p>Public work that shows how I think about biology, ML, and usability.</p></div>
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/ylc22/rnaseq-insight" target="_blank"><div class="project-num">01</div><h3>RNAseq Insight</h3><p>Reproducible RNA-seq analysis with normalization, PCA, differential expression, FDR control, visualization, tests, and CI.</p><span>Open project ↗</span></a>
+        <a class="project-card" href="https://github.com/ylc22/clinical-risk-lab" target="_blank"><div class="project-num">02</div><h3>Clinical Risk Lab</h3><p>Calibrated healthcare ML with subgroup auditing, explainability, threshold selection, model cards, and inference.</p><span>Open project ↗</span></a>
+        <a class="project-card" href="https://github.com/ylc22/protein-property-predictor" target="_blank"><div class="project-num">03</div><h3>Protein Property Predictor</h3><p>A protein-ML demo connecting scientific prediction with a clean applied machine-learning workflow.</p><span>Open project ↗</span></a>
+      </div>
+    </section>
+
+    <section id="life" class="section life-section">
+      <div class="section-head"><div><div class="eyebrow">BEYOND WORK</div><h2>Competitive by nature, curious by default</h2></div><p>I like things that reward repetition, strategy, and incremental improvement.</p></div>
+      <div class="life-grid">
+        <div class="life-card">⚽<span>Soccer</span></div><div class="life-card">🏀<span>Basketball</span></div><div class="life-card">🏃<span>Running</span></div><div class="life-card">🥋<span>Kickboxing / BJJ</span></div><div class="life-card">♟️<span>Chess</span></div><div class="life-card">🎹<span>Piano</span></div>
+      </div>
+      <blockquote>“The credit belongs to the man who is actually in the arena.”<cite>— Theodore Roosevelt</cite></blockquote>
+    </section>
+
+    <section class="section contact">
+      <div><div class="eyebrow">LET'S BUILD SOMETHING</div><h2>Biology is hard. Good tools should make it easier.</h2></div>
+      <div class="cta-row"><a class="pill" href="https://github.com/ylc22" target="_blank">GitHub ↗</a><a class="pill ghost" href="https://leetcode.com/u/luischan22/" target="_blank">LeetCode ↗</a></div>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Luis Chan</span><span>Hong Kong · Seattle · New Haven · Washington, DC</span></footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
