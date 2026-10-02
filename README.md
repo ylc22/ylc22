@@ -5,7 +5,13 @@
   <img src="https://komarev.com/ghpvc/?username=ylc22&label=Profile%20Views" alt="profile views" />
 </p>
 
-## GitHub Snapshot
+## 👋 About Me
+
+I’m a Yale computational biology graduate with a background spanning **biochemistry, data science, machine learning, and life-sciences platforms**. I’ve worked across protein design, protein ML, healthcare/bioinformatics infrastructure, and client-facing technical solutions — including experience at the **Baker Lab / Institute for Protein Design, OpenProtein.AI, Shape Therapeutics, Domino Data Lab**, and bioinformatics/AI work supporting NIH-facing workflows.
+
+I’m especially interested in building practical tools at the intersection of **biology + ML + product**, where strong science, clear software, and real-world usability all matter.
+
+## 🧠 GitHub Snapshot
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=ylc22&show_icons=true&hide_border=true&include_all_commits=true&count_private=false" alt="Luis's GitHub stats" />
@@ -16,11 +22,11 @@
   <img src="https://streak-stats.demolab.com?user=ylc22&hide_border=true" alt="GitHub streak" />
 </p>
 
-## Contribution Activity
+## 📈 Contribution Activity
 
 [![Luis's GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ylc22&hide_border=true&area=true)](https://github.com/ylc22)
 
-## LeetCode
+## 🧩 LeetCode
 
 <p align="center">
   <a href="https://leetcode.com/u/luischan22/">
@@ -28,7 +34,7 @@
   </a>
 </p>
 
-## Featured Projects
+## 🚀 Featured Projects
 
 | Project | What it shows |
 |---|---|
@@ -36,7 +42,7 @@
 | [Clinical Risk Lab](https://github.com/ylc22/clinical-risk-lab) | Calibrated healthcare ML, subgroup auditing, explainability, validation and inference |
 | [Protein Property Predictor](https://github.com/ylc22/protein-property-predictor) | Protein machine learning and life-sciences ML workflows |
 
-## Tech
+## 🛠️ Tech
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
@@ -48,3 +54,13 @@
   <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white" />
 </p>
+
+## ⚽ Outside of Work
+
+When I’m not working on biology or ML, I’m usually doing something competitive or active: **soccer, basketball, running, gym, kickboxing/BJJ, chess**, or playing the **piano**. I like problems that reward consistency, strategy, and getting a little better every day.
+
+## 💬 A line I like
+
+> “The credit belongs to the man who is actually in the arena.” — Theodore Roosevelt
+
+I like this because it’s a good reminder to choose action, effort, and learning over staying on the sidelines.
