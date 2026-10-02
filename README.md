@@ -4,7 +4,7 @@ Computational Biology · Machine Learning · Bioinformatics
 
 ## LeetCode
 
-[![LeetCode Stats](https://leetcard.jacoblin.cool/user0808xw?theme=light&font=Karma&ext=heatmap)](https://leetcode.com/u/user0808xw/)
+[![LeetCode Stats](https://leetcard.jacoblin.cool/luischan22?theme=light&font=Karma&ext=heatmap)](https://leetcode.com/u/luischan22/)
 
 ## Featured Projects
 
