@@ -17,7 +17,7 @@
   <nav class="nav">
     <a class="brand" href="#top">LC</a>
     <div class="nav-links">
-      <a href="#story">Story</a><a href="#map">Map</a><a href="#work">Work</a><a href="#projects">Projects</a><a href="#life">Life</a>
+      <a href="#story">Story</a><a href="#map">Map</a><a href="#work">Work</a><a href="#lab">Interactive Lab</a><a href="#projects">Projects</a><a href="#life">Life</a>
     </div>
     <a class="pill small" href="https://github.com/ylc22" target="_blank">GitHub ↗</a>
   </nav>
@@ -92,6 +92,49 @@
       </div>
     </section>
 
+    <section id="lab" class="section lab-section">
+      <div class="section-head"><div><div class="eyebrow">INTERACTIVE LAB</div><h2>Don’t just read my profile — play with the science</h2></div><p>Three small interactive demos: a real protein structure, my favorite CS idea in action, and a synthetic expression dashboard.</p></div>
+
+      <div class="protein-grid">
+        <div class="science-copy">
+          <div class="eyebrow">FAVORITE PROTEIN</div>
+          <h3>Green Fluorescent Protein (GFP)</h3>
+          <p>GFP is my favorite because it captures what I love about biology: a physical molecular structure can turn an invisible process into something you can actually see. Its β-barrel protects the chromophore at the center, and decades of engineering turned one natural protein into an entire toolkit for modern cell biology.</p>
+          <p class="muted">Drag to rotate · scroll to zoom · right-drag to translate. Structure: GFP, PDB 1EMA.</p>
+          <div class="viewer-controls">
+            <button class="lab-btn active" data-protein-style="cartoon">Cartoon</button>
+            <button class="lab-btn" data-protein-style="stick">Stick</button>
+            <button class="lab-btn" data-protein-style="sphere">Sphere</button>
+            <button class="lab-btn" id="spinProtein">Spin</button>
+            <button class="lab-btn" id="resetProtein">Reset</button>
+          </div>
+        </div>
+        <div class="protein-viewer-wrap"><div id="proteinViewer"><div class="viewer-loading">Loading GFP structure…</div></div></div>
+      </div>
+
+      <div class="algo-grid">
+        <div class="science-copy">
+          <div class="eyebrow">FAVORITE CS CONCEPT</div>
+          <h3>Dynamic Programming</h3>
+          <p>I like dynamic programming because it turns a problem that looks exponentially messy into a structured sequence of reusable decisions. In computational biology, sequence alignment makes that idea tangible: every cell in the matrix represents the best answer to a smaller problem.</p>
+          <p class="muted">Try the Needleman–Wunsch playground with your own short sequences.</p>
+        </div>
+        <div class="algo-panel">
+          <div class="input-row"><label>Sequence A<input id="seqA" value="GATTACA" maxlength="18"></label><label>Sequence B<input id="seqB" value="GCATGCU" maxlength="18"></label></div>
+          <div class="score-row"><label>Match<input id="matchScore" type="number" value="2" min="-5" max="10"></label><label>Mismatch<input id="mismatchScore" type="number" value="-1" min="-10" max="5"></label><label>Gap<input id="gapScore" type="number" value="-2" min="-10" max="0"></label><button class="pill small" id="alignBtn">Align</button></div>
+          <div class="alignment-output"><div><span>Score</span><strong id="alignmentScore">—</strong></div><pre id="alignmentText">Press Align</pre></div>
+          <div class="matrix-wrap"><table id="alignmentMatrix"></table></div>
+        </div>
+      </div>
+
+      <div class="dashboard">
+        <div class="dashboard-head"><div><div class="eyebrow">SYNTHETIC DATA DASHBOARD</div><h3>Gene-expression signal explorer</h3><p>Adjust the thresholds to see which synthetic genes would pass a simple effect-size + FDR screen.</p></div><div class="dash-controls"><label>|log₂FC| ≥ <strong id="fcLabel">1.0</strong><input id="fcSlider" type="range" min="0" max="3" step="0.1" value="1"></label><label>FDR ≤ <strong id="fdrLabel">0.05</strong><input id="fdrSlider" type="range" min="0.01" max="0.25" step="0.01" value="0.05"></label></div></div>
+        <div class="metrics"><div><span>Genes</span><strong>24</strong></div><div><span>Hits</span><strong id="hitCount">0</strong></div><div><span>Top signal</span><strong id="topGene">—</strong></div></div>
+        <div id="geneChart" class="gene-chart" aria-label="Synthetic gene expression bar chart"></div>
+        <p class="dashboard-note">Synthetic demonstration only — no patient or proprietary data.</p>
+      </div>
+    </section>
+
     <section id="projects" class="section">
       <div class="section-head"><div><div class="eyebrow">SELECTED BUILDS</div><h2>Projects</h2></div><p>Public work that shows how I think about biology, ML, and usability.</p></div>
       <div class="project-grid">
@@ -119,6 +162,7 @@
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
   <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+  <script src="https://3Dmol.org/build/3Dmol-min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
