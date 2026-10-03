@@ -17,6 +17,21 @@
   opacity:1!important;
   visibility:visible!important;
 }
-
 .life-section figure:first-of-type img{object-position:center 42%!important;}
 .life-section figure:nth-of-type(2) img{object-position:center 38%!important;}
+
+/* Display Marathon instead of Running. */
+.life-grid .life-card:nth-child(3) span,
+.life-section figure:first-of-type figcaption{font-size:0;}
+.life-grid .life-card:nth-child(3) span::after{
+  content:"Marathon";
+  font-size:.9rem;
+  color:#c8d6e6;
+}
+.life-section figure:first-of-type figcaption::after{
+  content:"Marathon";
+  font-family:'Space Grotesk';
+  font-size:1.2rem;
+  font-weight:700;
+  color:#fff;
+}
