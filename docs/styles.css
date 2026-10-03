@@ -1,52 +1,7 @@
 @import url("base.css");
+@import url("athletics.css");
 
-/* Athletics gallery — render real image files directly. */
-.life-section > div[style*="grid-template-columns"]{
-  grid-template-columns:repeat(auto-fit,minmax(280px,1fr))!important;
-  gap:18px!important;
-  max-width:760px;
-  margin:30px auto 0!important;
-}
-
-.life-section figure{
-  min-height:320px!important;
-  background:#081321!important;
-  position:relative!important;
-  overflow:hidden!important;
-}
-
-.life-section figure img{
-  display:block!important;
-  width:100%!important;
-  height:320px!important;
-  object-fit:cover!important;
-  opacity:1!important;
-  visibility:visible!important;
-}
-
-/* The first source file contains the HYROX photo; the second contains the marathon photo. */
-.life-section figure:first-of-type img{
-  object-position:center 42%!important;
-}
-.life-section figure:nth-of-type(2) img{
-  object-position:center 50%!important;
-}
-
-/* Correct the photo captions without relying on the old HTML labels. */
-.life-section figure figcaption{
-  font-size:0!important;
-}
-.life-section figure:first-of-type figcaption::after{
-  content:"HYROX";
-  font-family:'Space Grotesk',sans-serif;
-  font-size:1.2rem;
-  font-weight:700;
-  color:#fff;
-}
-.life-section figure:nth-of-type(2) figcaption::after{
-  content:"Marathon";
-  font-family:'Space Grotesk',sans-serif;
-  font-size:1.2rem;
-  font-weight:700;
-  color:#fff;
-}
+/* Final athletics presentation: keep the proven embedded photos, no captions. */
+.life-section figure figcaption{display:none!important;}
+.life-section figure{min-height:320px!important;}
+.life-section figure img{display:none!important;}
