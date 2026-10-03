@@ -1,41 +1,51 @@
 @import url("base.css");
 
-/* Athletics gallery */
-.life-section figure img{
-  display:none!important;
+/* Athletics gallery — render real image files directly. */
+.life-section > div[style*="grid-template-columns"]{
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr))!important;
+  gap:18px!important;
+  max-width:760px;
+  margin:30px auto 0!important;
 }
 
 .life-section figure{
   min-height:320px!important;
-  background-size:cover!important;
-  background-repeat:no-repeat!important;
-  background-color:#081321!important;
+  background:#081321!important;
+  position:relative!important;
+  overflow:hidden!important;
 }
 
-/* Left card = HYROX, right card = Marathon */
-.life-section figure:first-of-type{
-  background-image:url("assets/hyrox-card.webp?v=20261003")!important;
-  background-position:center 43%!important;
-}
-.life-section figure:nth-of-type(2){
-  background-image:url("assets/marathon-card.webp?v=20261003")!important;
-  background-position:center 48%!important;
+.life-section figure img{
+  display:block!important;
+  width:100%!important;
+  height:320px!important;
+  object-fit:cover!important;
+  opacity:1!important;
+  visibility:visible!important;
 }
 
-/* Correct the visible captions without needing to rewrite the HTML. */
+/* The first source file contains the HYROX photo; the second contains the marathon photo. */
+.life-section figure:first-of-type img{
+  object-position:center 42%!important;
+}
+.life-section figure:nth-of-type(2) img{
+  object-position:center 50%!important;
+}
+
+/* Correct the photo captions without relying on the old HTML labels. */
 .life-section figure figcaption{
   font-size:0!important;
 }
 .life-section figure:first-of-type figcaption::after{
   content:"HYROX";
-  font-family:'Space Grotesk';
+  font-family:'Space Grotesk',sans-serif;
   font-size:1.2rem;
   font-weight:700;
   color:#fff;
 }
 .life-section figure:nth-of-type(2) figcaption::after{
   content:"Marathon";
-  font-family:'Space Grotesk';
+  font-family:'Space Grotesk',sans-serif;
   font-size:1.2rem;
   font-weight:700;
   color:#fff;
