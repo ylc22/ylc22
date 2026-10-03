@@ -1,11 +1,11 @@
 @import url("base.css");
 
-/* Athletics gallery: use the current uploaded images, with a cache-busting query. */
+/* Athletics gallery: verified uploaded images with cache busting. */
 .life-section figure:first-of-type img{
-  content:url("assets/marathon-v2.jpg?v=20261002b");
+  content:url("assets/marathon-v3.jpg?v=20261002c");
 }
 .life-section figure:nth-of-type(2) img{
-  content:url("assets/hyrox-v2.jpg?v=20261002b");
+  content:url("assets/hyrox-v3.jpg?v=20261002c");
 }
 
 /* Keep the athletics photos visible and consistently cropped. */
