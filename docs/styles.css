@@ -29,6 +29,16 @@
   background-position:center 45%!important;
 }
 
+/* Keep every activity label the same size, including Marathon. */
+.life-grid .life-card,
+.life-grid .life-card span,
+.life-grid .life-card:nth-child(3),
+.life-grid .life-card:nth-child(3) span{
+  font-size:inherit!important;
+  line-height:inherit!important;
+  transform:none!important;
+}
+
 @media (max-width:560px){
   .life-section > div[style*="grid-template-columns"]{
     grid-template-columns:repeat(2,minmax(0,1fr))!important;
