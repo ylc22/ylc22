@@ -1,32 +1,14 @@
 @import url("base.css");
 
-/* Athletics gallery reliability fixes */
+/* Athletics gallery: use the current uploaded images, with a cache-busting query. */
 .life-section figure:first-of-type img{
-  content:url("https://raw.githubusercontent.com/ylc22/ylc22/main/docs/assets/running.jpg");
+  content:url("assets/marathon-v2.jpg?v=20261002b");
 }
 .life-section figure:nth-of-type(2) img{
-  content:url("https://raw.githubusercontent.com/ylc22/ylc22/main/docs/assets/hyrox.jpg");
+  content:url("assets/hyrox-v2.jpg?v=20261002b");
 }
 
-/* Rename Running -> Marathon in the visible site */
-.life-grid .life-card:nth-child(3) span,
-.life-section figure:first-of-type figcaption{
-  font-size:0;
-}
-.life-grid .life-card:nth-child(3) span::after{
-  content:"Marathon";
-  font-size:.9rem;
-  color:#c8d6e6;
-}
-.life-section figure:first-of-type figcaption::after{
-  content:"Marathon";
-  font-family:'Space Grotesk';
-  font-size:1.2rem;
-  font-weight:700;
-  color:#fff;
-}
-
-/* Keep uploaded athletics photos crisp and visible */
+/* Keep the athletics photos visible and consistently cropped. */
 .life-section figure img{
   display:block!important;
   width:100%!important;
@@ -35,3 +17,6 @@
   opacity:1!important;
   visibility:visible!important;
 }
+
+.life-section figure:first-of-type img{object-position:center 42%!important;}
+.life-section figure:nth-of-type(2) img{object-position:center 38%!important;}
