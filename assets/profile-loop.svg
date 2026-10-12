@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="180" viewBox="0 0 900 180">
+  <rect width="900" height="180" rx="24" fill="#0d1117"/>
+  <text x="450" y="35" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="22" font-weight="700">biology × ML × product</text>
+
+  <g transform="translate(150 95)">
+    <circle r="30" fill="none" stroke="#58a6ff" stroke-width="5"/>
+    <circle r="7" fill="#58a6ff">
+      <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="cx" values="0;26;0;-26;0" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="cy" values="-26;0;26;0;-26" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="58" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="15">BIOLOGY</text>
+  </g>
+
+  <g transform="translate(450 95)">
+    <rect x="-42" y="-30" width="84" height="60" rx="10" fill="none" stroke="#3fb950" stroke-width="5"/>
+    <text x="0" y="8" text-anchor="middle" fill="#3fb950" font-family="monospace" font-size="25">&lt;/&gt;</text>
+    <animateTransform attributeName="transform" type="translate" values="450 95;450 88;450 95" dur="1.4s" repeatCount="indefinite"/>
+    <text x="0" y="58" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="15">ML / DATA</text>
+  </g>
+
+  <g transform="translate(750 95)">
+    <path d="M-36 18 L0 -28 L36 18 Z" fill="none" stroke="#f2cc60" stroke-width="5"/>
+    <circle cx="0" cy="-28" r="6" fill="#f2cc60">
+      <animate attributeName="r" values="5;10;5" dur="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="58" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="15">PRODUCT</text>
+  </g>
+
+  <path d="M205 95 H390" stroke="#30363d" stroke-width="4" stroke-dasharray="8 10">
+    <animate attributeName="stroke-dashoffset" values="0;-36" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <path d="M510 95 H695" stroke="#30363d" stroke-width="4" stroke-dasharray="8 10">
+    <animate attributeName="stroke-dashoffset" values="0;-36" dur="1s" repeatCount="indefinite"/>
+  </path>
+</svg>
