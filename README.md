@@ -1,55 +1,89 @@
-<h1 align="center">Luis Chan</h1>
-<p align="center"><b>Yale University MS Computational Biology & Bioinformatics · University of Washington BS Biochemistry & Data Science · Machine Learning · Bioinformatics</b></p>
+<h1 align="center">Hey, I'm Luis 👋</h1>
+
+<p align="center"><b>Yale Computational Biology · UW Biochemistry + Data Science · Biology × ML × Product</b></p>
 
 <p align="center">
-  <a href="https://github.com/ylc22">GitHub: ylc22</a> ·
-  <a href="https://leetcode.com/u/luischan22/">LeetCode: luischan22</a>
+  <img src="assets/profile-loop.svg" alt="Animated biology ML product banner" width="900">
+</p>
+
+<p align="center">
+  <a href="https://github.com/ylc22">GitHub</a> ·
+  <a href="https://leetcode.com/u/luischan22/">LeetCode</a>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=ylc22&label=Profile%20Views" alt="profile views" />
 </p>
 
-## 👋 About Me
+## 👋 About me, but in bullets
 
-I’m **Luis Chan**, a **Yale University** computational biology graduate with a background spanning **biochemistry, data science, machine learning, and life-sciences platforms**. I completed my undergraduate degree at the **University of Washington**, studying **Biochemistry and Data Science**, and later earned my MS at Yale in **Computational Biology & Bioinformatics**.
+- 🧬 **Yale MS in Computational Biology & Bioinformatics**
+- 🧪 **UW BS in Biochemistry + Data Science**
+- 🤖 I like **ML for biology**, especially protein, clinical, and bioinformatics problems
+- 🛠️ I’ve worked across **research, product, solutions engineering, and scientific platforms**
+- 🧠 I enjoy turning messy science into something people can actually use
+- 📦 I like projects that go all the way from **data → model → product**
+- 🚫 I am not emotionally attached to notebooks named `final_v7_REAL.ipynb`
 
-I’ve worked across protein design, protein ML, healthcare/bioinformatics infrastructure, and client-facing technical solutions — including experience at the **Baker Lab / Institute for Protein Design, OpenProtein.AI, Shape Therapeutics, Domino Data Lab**, and bioinformatics/AI work supporting NIH-facing workflows.
+## 🧪 Things I’ve worked on
 
-I’m especially interested in building practical tools at the intersection of **biology + ML + product**, where strong science, clear software, and real-world usability all matter.
+- 🧬 **Protein design / protein ML**
+  - Baker Lab / Institute for Protein Design
+  - OpenProtein.AI
+  - Shape Therapeutics
 
-## 🧠 GitHub Snapshot
+- 🏥 **Bioinformatics + scientific infrastructure**
+  - NIH-facing workflows
+  - Nextflow
+  - clinical / biomedical data
+  - cloud deployments
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ylc22&show_icons=true&hide_border=true&include_all_commits=true&count_private=false" alt="Luis Chan GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ylc22&layout=compact&hide_border=true&langs_count=6" alt="Luis Chan top languages" />
-</p>
+- 🧑‍💻 **Life-sciences solutions engineering**
+  - Domino Data Lab
+  - ML demos
+  - scientific workflows
+  - “how do we make this actually work for users?”
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=ylc22&hide_border=true" alt="Luis Chan GitHub streak" />
-</p>
+## 🚀 Featured projects
 
-## 📈 Contribution Activity
+- 🧬 [**Protein Property Predictor**](https://github.com/ylc22/protein-property-predictor)
+  - protein ML
+  - interpretable sequence features
+  - API + Streamlit + CI
+  - considerably less toy-ish than its first version
 
-[![Luis Chan GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ylc22&hide_border=true&area=true)](https://github.com/ylc22)
+- 🧪 [**RNAseq Insight**](https://github.com/ylc22/rnaseq-insight)
+  - RNA-seq analysis
+  - PCA
+  - differential expression
+  - FDR control
+  - reproducible workflows
 
-## 🧩 LeetCode
+- 🏥 [**Clinical Risk Lab**](https://github.com/ylc22/clinical-risk-lab)
+  - calibrated healthcare ML
+  - subgroup auditing
+  - explainability
+  - validation
 
-<p align="center">
-  <a href="https://leetcode.com/u/luischan22/">
-    <img src="https://leetcard.jacoblin.cool/luischan22?theme=light&font=Karma&ext=heatmap" alt="Luis Chan LeetCode stats" />
-  </a>
-</p>
+- 🥊 [**UFC Vibes Lab**](https://github.com/ylc22/ufc-vibes-lab)
+  - unsupervised clustering
+  - fighter archetypes
+  - “Human Backpack Score”
+  - proof that data science does not always have to look miserable
 
-## 🚀 Featured Projects
+## 🧠 My preferred workflow
 
-| Project | What it shows |
-|---|---|
-| [RNAseq Insight](https://github.com/ylc22/rnaseq-insight) | Reproducible RNA-seq analysis, differential expression, PCA, FDR control, visualization |
-| [Clinical Risk Lab](https://github.com/ylc22/clinical-risk-lab) | Calibrated healthcare ML, subgroup auditing, explainability, validation and inference |
-| [Protein Property Predictor](https://github.com/ylc22/protein-property-predictor) | Protein machine learning and life-sciences ML workflows |
+- find an interesting problem
+- get the data
+- clean the data
+- complain about the data
+- clean it again
+- build the model
+- realize the simple baseline is annoyingly strong
+- build something people can actually interact with
+- add tests so Future Luis does not hate Past Luis
 
-## 🛠️ Tech
+## 🛠️ Tools I use
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
@@ -62,15 +96,56 @@ I’m especially interested in building practical tools at the intersection of *
   <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white" />
 </p>
 
-## ⚽ Outside of Work
+## 📈 GitHub stuff
 
-When I’m not working on biology or ML, I’m usually doing something competitive or active: **soccer, basketball, running, gym, kickboxing/BJJ, chess**, or playing the **piano**. I like problems that reward consistency, strategy, and getting a little better every day.
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ylc22&show_icons=true&hide_border=true&include_all_commits=true&count_private=false" alt="Luis Chan GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ylc22&layout=compact&hide_border=true&langs_count=6" alt="Luis Chan top languages" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=ylc22&hide_border=true" alt="Luis Chan GitHub streak" />
+</p>
+
+## 📈 Contribution activity
+
+[![Luis Chan GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ylc22&hide_border=true&area=true)](https://github.com/ylc22)
+
+## 🧩 LeetCode
+
+<p align="center">
+  <a href="https://leetcode.com/u/luischan22/">
+    <img src="https://leetcard.jacoblin.cool/luischan22?theme=light&font=Karma&ext=heatmap" alt="Luis Chan LeetCode stats" />
+  </a>
+</p>
+
+## ⚽ Outside of work
+
+- ⚽ soccer
+- 🏀 basketball
+- 🏃 running
+- 🥊 kickboxing
+- 🥋 BJJ
+- ♟️ chess
+- 🎹 piano
+- 💪 gym
+- 📊 apparently building UFC analytics repos for fun
 
 ## 💬 A line I like
 
 > “The credit belongs to the man who is actually in the arena.” — Theodore Roosevelt
 
-I like this because it’s a good reminder to choose action, effort, and learning over staying on the sidelines.
+Mostly because “actually in the arena” sounds better than “still renaming the notebook.”
+
+---
+
+### TL;DR
+
+- biology person who likes ML
+- ML person who still cares about biology
+- likes building things people can use
+- likes serious work
+- does not believe serious work has to look serious all the time
 
 ---
 
