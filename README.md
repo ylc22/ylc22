@@ -71,6 +71,13 @@
   - “Human Backpack Score”
   - proof that data science does not always have to look miserable
 
+## 🌍 Open-source contributions
+
+- 🧩 I contribute to public repositories when I can add something concrete rather than drive-by noise
+- 📝 Recent example: implementation guidance on [PITBridge #7](https://github.com/dev-belly/PITBridge/issues/7) around pandas/CSV adapters, temporal validation, revisions, tombstones, and missing-value handling
+- 🔍 I like contributions where I can read the existing contract first, identify edge cases, and leave something maintainers can actually use
+- 🦈 More merged PRs coming; less “changed one comma for the graph”
+
 ## 🧠 My preferred workflow
 
 - find an interesting problem
