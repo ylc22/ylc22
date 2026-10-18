@@ -142,8 +142,6 @@
 
 > “The credit belongs to the man who is actually in the arena.” — Theodore Roosevelt
 
-Mostly because “actually in the arena” sounds better than “still renaming the notebook.”
-
 ---
 
 ### TL;DR
