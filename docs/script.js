@@ -13,7 +13,7 @@ const cities=[
 
 try{
 const map=L.map('mapCanvas',{zoomControl:false,worldCopyJump:true,minZoom:2}).setView([31,-25],2);L.control.zoom({position:'bottomright'}).addTo(map);
-L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Tiles © Esri — Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community'}).addTo(map);
+L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Tiles © Esri  -  Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community'}).addTo(map);
 L.tileLayer('https://services.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{maxZoom:19,attribution:'Labels © Esri'}).addTo(map);
 const markers=[];cities.forEach((c,i)=>{const marker=L.circleMarker(c.coords,{radius:8,color:'#65d6ff',weight:2,fillColor:'#4da3ff',fillOpacity:.9}).addTo(map).bindPopup(`<strong>${c.name}</strong><br>${c.years}`);markers.push(marker)});
 const route=L.polyline(cities.map(c=>c.coords),{color:'#65d6ff',weight:2,opacity:.85,dashArray:'7,10'}).addTo(map);
