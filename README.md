@@ -136,7 +136,6 @@
 - ♟️ chess
 - 🎹 piano
 - 💪 gym
-- 📊 apparently building UFC analytics repos for fun
 
 ## 💬 A line I like
 
