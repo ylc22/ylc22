@@ -89,7 +89,6 @@
 - build the model
 - realize the simple baseline is annoyingly strong
 - build something people can actually interact with
-- add tests so Future Luis does not hate Past Luis
 
 ## 🛠️ Tools I use
 
@@ -137,6 +136,7 @@
 - ♟️ chess
 - 🎹 piano
 - 💪 gym
+- 📚 reading
 
 ## 💬 A line I like
 
