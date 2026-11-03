@@ -47,6 +47,12 @@
 
 ## 🚀 Featured projects
 
+- ⚙️ [**Scientific Workflow Control Plane**](https://github.com/ylc22/scientific-workflow-control-plane)
+  - FastAPI + SQLite + Streamlit
+  - job orchestration, retries, idempotency, metrics
+  - Docker + CI + tests
+  - production-style scientific platform / FDE engineering
+
 - 🧬 [**Protein Property Predictor**](https://github.com/ylc22/protein-property-predictor)
   - protein ML
   - interpretable sequence features
