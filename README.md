@@ -1,111 +1,62 @@
 <h1 align="center">Hey, I'm Luis 👋</h1>
 
-<p align="center"><b>Yale Computational Biology · UW Biochemistry + Data Science · Biology × ML × Product</b></p>
+<p align="center">
+  <b>Computational Biology · Machine Learning · Scientific Platforms</b><br>
+  Yale MS · UW Biochemistry + Data Science
+</p>
 
 <p align="center">
-  <img src="assets/profile-loop.svg" alt="Animated biology ML product banner" width="900">
+  <a href="https://ylc22.github.io/"><b>Website</b></a> ·
+  <a href="https://github.com/ylc22"><b>GitHub</b></a> ·
+  <a href="https://leetcode.com/u/luischan22/"><b>LeetCode</b></a>
+</p>
+
+<p align="center">
+  <img src="assets/profile-loop.svg" alt="Biology to machine learning to product" width="900">
 </p>
 
 <p align="center">
   <img src="assets/bouncing-cat.svg" alt="Cute animated cat bouncing across the README" width="100%">
 </p>
 
+## About
+
+| | |
+|---|---|
+| 🧬 **Focus** | Computational biology, ML for science, bioinformatics platforms |
+| 🎓 **Education** | Yale MS Computational Biology & Bioinformatics · UW BS Biochemistry + Data Science |
+| ⚙️ **Build** | Data → model → API → product |
+| 🤝 **Work style** | Research · product · solutions · scientific infrastructure |
+| 🌎 **Background** | 🇭🇰 Hong Kong · 🇲🇴 🇵🇹 Macau / Portuguese roots |
+
+## Featured projects
+
+| Project | What it shows |
+|---|---|
+| ⚙️ [**Scientific Workflow Control Plane**](https://github.com/ylc22/scientific-workflow-control-plane) | FastAPI · orchestration · retries · cancellation · metrics · Docker · CI |
+| 🧬 [**Protein Property Predictor**](https://github.com/ylc22/protein-property-predictor) | Protein ML · interpretable sequence features · API · Streamlit |
+| 🧪 [**RNAseq Insight**](https://github.com/ylc22/rnaseq-insight) | RNA-seq · PCA · differential expression · FDR · reproducibility |
+| 🏥 [**Clinical Risk Lab**](https://github.com/ylc22/clinical-risk-lab) | Calibrated ML · subgroup auditing · explainability · model validation |
+| 🥊 [**UFC Vibes Lab**](https://github.com/ylc22/ufc-vibes-lab) | Clustering · fighter archetypes · exploratory data science |
+
+## Experience across
+
 <p align="center">
-  <a href="https://ylc22.github.io/">Personal Website</a> ·
-  <a href="https://github.com/ylc22">GitHub</a> ·
-  <a href="https://leetcode.com/u/luischan22/">LeetCode</a>
+  🧬 Protein ML &nbsp;&nbsp;•&nbsp;&nbsp;
+  🏥 Biomedical AI &nbsp;&nbsp;•&nbsp;&nbsp;
+  ☁️ Scientific Platforms &nbsp;&nbsp;•&nbsp;&nbsp;
+  🤝 Solutions & Product
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ylc22&label=Profile%20Views" alt="profile views" />
+  <sub>Baker Lab / Institute for Protein Design · OpenProtein.AI · Shape Therapeutics · Domino Data Lab · NIH-facing bioinformatics</sub>
 </p>
 
-## 👋 About me, but in bullets
+## Toolkit
 
-- 🧬 **Yale MS in Computational Biology & Bioinformatics**
-- 🧪 **UW BS in Biochemistry + Data Science**
-- 🤖 I like **ML for biology**, especially protein, clinical, and bioinformatics problems
-- 🛠️ I’ve worked across **research, product, solutions engineering, and scientific platforms**
-- 🧠 I enjoy turning messy science into something people can actually use
-- 📦 I like projects that go all the way from **data → model → product**
-- 🚫 I am not emotionally attached to notebooks named `final_v7_REAL.ipynb`
-
-## 🧪 Things I’ve worked on
-
-- 🧬 **Protein design / protein ML**
-  - Baker Lab / Institute for Protein Design
-  - OpenProtein.AI
-  - Shape Therapeutics
-
-- 🏥 **Bioinformatics + scientific infrastructure**
-  - NIH-facing workflows
-  - Nextflow
-  - clinical / biomedical data
-  - cloud deployments
-
-- 🧑‍💻 **Life-sciences solutions engineering**
-  - Domino Data Lab
-  - ML demos
-  - scientific workflows
-  - “how do we make this actually work for users?”
-
-## 🚀 Featured projects
-
-- ⚙️ [**Scientific Workflow Control Plane**](https://github.com/ylc22/scientific-workflow-control-plane)
-  - FastAPI + SQLite + Streamlit
-  - job orchestration, retries, idempotency, metrics
-  - Docker + CI + tests
-  - production-style scientific platform / FDE engineering
-
-- 🧬 [**Protein Property Predictor**](https://github.com/ylc22/protein-property-predictor)
-  - protein ML
-  - interpretable sequence features
-  - API + Streamlit + CI
-  - considerably less toy-ish than its first version
-
-- 🧪 [**RNAseq Insight**](https://github.com/ylc22/rnaseq-insight)
-  - RNA-seq analysis
-  - PCA
-  - differential expression
-  - FDR control
-  - reproducible workflows
-
-- 🏥 [**Clinical Risk Lab**](https://github.com/ylc22/clinical-risk-lab)
-  - calibrated healthcare ML
-  - subgroup auditing
-  - explainability
-  - validation
-
-- 🥊 [**UFC Vibes Lab**](https://github.com/ylc22/ufc-vibes-lab)
-  - unsupervised clustering
-  - fighter archetypes
-  - “Human Backpack Score”
-  - proof that data science does not always have to look miserable
-
-## 🌍 Open-source contributions
-
-- 🧩 I contribute to public repositories when I can add something concrete rather than drive-by noise
-- 📝 Recent example: implementation guidance on [PITBridge #7](https://github.com/dev-belly/PITBridge/issues/7) around pandas/CSV adapters, temporal validation, revisions, tombstones, and missing-value handling
-- 🔍 I like contributions where I can read the existing contract first, identify edge cases, and leave something maintainers can actually use
-- 🦈 More merged PRs coming; less “changed one comma for the graph”
-
-## 🧠 My preferred workflow
-
-- find an interesting problem
-- get the data
-- clean the data
-- complain about the data
-- clean it again
-- build the model
-- realize the simple baseline is annoyingly strong
-- build something people can actually interact with
-
-## 🛠️ Tools I use
-
-<p>
+<p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" />
   <img src="https://img.shields.io/badge/Nextflow-3AC486?logo=nextflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
@@ -113,7 +64,7 @@
   <img src="https://img.shields.io/badge/Azure-0078D4?logo=microsoftazure&logoColor=white" />
 </p>
 
-## 📈 GitHub stuff
+## GitHub
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=ylc22&show_icons=true&hide_border=true&include_all_commits=true&count_private=false" alt="Luis Chan GitHub stats" />
@@ -121,47 +72,23 @@
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ylc22&hide_border=true" alt="Luis Chan GitHub streak" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=ylc22&hide_border=true&area=true" alt="Luis Chan GitHub activity graph" />
 </p>
 
-## 📈 Contribution activity
-
-[![Luis Chan GitHub activity graph](https://github-readme-activity-graph.vercel.app/graph?username=ylc22&hide_border=true&area=true)](https://github.com/ylc22)
-
-## 🧩 LeetCode
+## Outside of work
 
 <p align="center">
-  <a href="https://leetcode.com/u/luischan22/">
-    <img src="https://leetcard.jacoblin.cool/luischan22?theme=light&font=Karma&ext=heatmap" alt="Luis Chan LeetCode stats" />
-  </a>
+  ⚽ Soccer &nbsp;·&nbsp;
+  🏀 Basketball &nbsp;·&nbsp;
+  🏃 Running &nbsp;·&nbsp;
+  🥊 Kickboxing &nbsp;·&nbsp;
+  🥋 BJJ &nbsp;·&nbsp;
+  ♟️ Chess &nbsp;·&nbsp;
+  🎹 Piano &nbsp;·&nbsp;
+  📚 Reading
 </p>
 
-## ⚽ Outside of work
-
-- ⚽ soccer
-- 🏀 basketball
-- 🏃 running
-- 🥊 kickboxing
-- 🥋 BJJ
-- ♟️ chess
-- 🎹 piano
-- 💪 gym
-- 📚 reading
-
-## 💬 A line I like
-
-> “The credit belongs to the man who is actually in the arena.” — Theodore Roosevelt
-
----
-
-### TL;DR
-
-- biology person who likes ML
-- ML person who still cares about biology
-- likes building things people can use
-- likes serious work
-- does not believe serious work has to look serious all the time
-
----
-
-**Search terms:** Luis Chan Yale · Luis Chan Yale University · Luis Chan University of Washington · Luis Chan computational biology · Luis Chan bioinformatics · Luis Chan machine learning · ylc22 GitHub
+<p align="center">
+  <i>“The credit belongs to the man who is actually in the arena.”</i><br>
+  <sub>Theodore Roosevelt</sub>
+</p>
