@@ -1,77 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="130" viewBox="0 0 1000 130" role="img" aria-label="Cute muted lavender pixel cat walking across the page">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="135" viewBox="0 0 1000 135" role="img" aria-label="Cute pixel tuxedo cat walking across the page">
   <g shape-rendering="crispEdges">
     <animateTransform attributeName="transform" type="translate"
-      values="-100 0;1100 0" dur="9s" repeatCount="indefinite"/>
+      values="-115 0;1115 0" dur="9.5s" repeatCount="indefinite"/>
 
     <g>
       <animateTransform attributeName="transform" type="translate"
-        values="0 16;0 2;0 16" dur="0.7s" repeatCount="indefinite"/>
+        values="0 17;0 3;0 17" dur="0.72s" repeatCount="indefinite"/>
 
       <!-- shadow -->
-      <rect x="20" y="101" width="62" height="7" rx="2" fill="#1f2430" opacity=".12">
-        <animate attributeName="width" values="62;48;62" dur="0.7s" repeatCount="indefinite"/>
-        <animate attributeName="x" values="20;27;20" dur="0.7s" repeatCount="indefinite"/>
+      <rect x="20" y="105" width="70" height="6" rx="2" fill="#111820" opacity=".14">
+        <animate attributeName="width" values="70;52;70" dur="0.72s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="20;29;20" dur="0.72s" repeatCount="indefinite"/>
       </rect>
 
       <!-- tail -->
-      <path d="M25 63 H12 V52 H5 V35 H12 V27 H24 V35 H31 V50 H25 Z"
-            fill="#625c7d" stroke="#3f3a55" stroke-width="3"/>
-      <rect x="9" y="32" width="13" height="8" fill="#91c9bf"/>
-      <rect x="15" y="48" width="12" height="8" fill="#91c9bf"/>
+      <path d="M29 68 H17 V61 H9 V47 H13 V36 H22 V31 H31 V39 H36 V55 H31 Z"
+            fill="#222831" stroke="#111820" stroke-width="3"/>
+      <rect x="13" y="45" width="7" height="8" fill="#f4f1ea"/>
 
       <!-- body -->
-      <rect x="26" y="49" width="52" height="37" rx="8" fill="#8f88aa" stroke="#3f3a55" stroke-width="3"/>
-      <rect x="31" y="53" width="7" height="23" fill="#77708f"/>
-      <rect x="43" y="52" width="7" height="21" fill="#77708f"/>
-      <rect x="55" y="53" width="7" height="19" fill="#91c9bf"/>
+      <rect x="28" y="49" width="57" height="40" rx="8"
+            fill="#222831" stroke="#111820" stroke-width="3"/>
+      <!-- tuxedo chest -->
+      <path d="M66 51 H81 V73 H74 V86 H62 V69 H66 Z" fill="#f4f1ea"/>
 
-      <!-- legs -->
-      <g>
-        <rect x="30" y="80" width="13" height="19" rx="3" fill="#8f88aa" stroke="#3f3a55" stroke-width="3">
-          <animate attributeName="y" values="80;74;80" dur="0.7s" repeatCount="indefinite"/>
-        </rect>
-        <rect x="61" y="80" width="13" height="19" rx="3" fill="#8f88aa" stroke="#3f3a55" stroke-width="3">
-          <animate attributeName="y" values="74;80;74" dur="0.7s" repeatCount="indefinite"/>
-        </rect>
-        <rect x="32" y="92" width="10" height="6" fill="#f3d6cf"/>
-        <rect x="63" y="92" width="10" height="6" fill="#f3d6cf"/>
-      </g>
+      <!-- back legs -->
+      <rect x="31" y="80" width="14" height="22" rx="3"
+            fill="#222831" stroke="#111820" stroke-width="3">
+        <animate attributeName="y" values="80;74;80" dur="0.72s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="47" y="82" width="13" height="20" rx="3"
+            fill="#222831" stroke="#111820" stroke-width="3">
+        <animate attributeName="y" values="76;82;76" dur="0.72s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- front legs -->
+      <rect x="67" y="80" width="13" height="22" rx="3"
+            fill="#f4f1ea" stroke="#111820" stroke-width="3">
+        <animate attributeName="y" values="74;80;74" dur="0.72s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="82" y="82" width="13" height="20" rx="3"
+            fill="#222831" stroke="#111820" stroke-width="3">
+        <animate attributeName="y" values="82;75;82" dur="0.72s" repeatCount="indefinite"/>
+      </rect>
+
+      <!-- white paws -->
+      <rect x="31" y="94" width="14" height="8" rx="2" fill="#f4f1ea"/>
+      <rect x="47" y="94" width="13" height="8" rx="2" fill="#f4f1ea"/>
+      <rect x="67" y="94" width="13" height="8" rx="2" fill="#f4f1ea"/>
+      <rect x="82" y="94" width="13" height="8" rx="2" fill="#f4f1ea"/>
 
       <!-- head -->
-      <rect x="55" y="24" width="43" height="44" rx="9" fill="#9a93b6" stroke="#3f3a55" stroke-width="3"/>
+      <rect x="57" y="23" width="47" height="48" rx="9"
+            fill="#222831" stroke="#111820" stroke-width="3"/>
 
       <!-- ears -->
-      <path d="M58 30 L61 13 L72 27 Z" fill="#9a93b6" stroke="#3f3a55" stroke-width="3"/>
-      <path d="M83 27 L94 13 L96 33 Z" fill="#9a93b6" stroke="#3f3a55" stroke-width="3"/>
-      <path d="M62 26 L64 19 L68 27 Z" fill="#e7a79c"/>
-      <path d="M87 25 L93 19 L93 29 Z" fill="#e7a79c"/>
+      <path d="M60 31 L64 11 L76 28 Z" fill="#222831" stroke="#111820" stroke-width="3"/>
+      <path d="M88 28 L101 11 L103 35 Z" fill="#222831" stroke="#111820" stroke-width="3"/>
+      <path d="M65 26 L67 18 L72 27 Z" fill="#d9a19d"/>
+      <path d="M93 25 L99 18 L99 29 Z" fill="#d9a19d"/>
 
-      <!-- muzzle -->
-      <rect x="64" y="43" width="27" height="17" rx="7" fill="#eee9df"/>
+      <!-- tuxedo forehead blaze -->
+      <path d="M76 25 H87 L85 39 H78 Z" fill="#f4f1ea"/>
+
+      <!-- white muzzle + lower face -->
+      <rect x="65" y="43" width="32" height="21" rx="8" fill="#f4f1ea"/>
 
       <!-- eyes -->
-      <rect x="63" y="36" width="7" height="9" rx="2" fill="#2d2a3a"/>
-      <rect x="84" y="36" width="7" height="9" rx="2" fill="#2d2a3a"/>
-      <rect x="65" y="37" width="2" height="2" fill="#fff"/>
-      <rect x="86" y="37" width="2" height="2" fill="#fff"/>
+      <rect x="64" y="36" width="8" height="9" rx="2" fill="#f4f1ea"/>
+      <rect x="89" y="36" width="8" height="9" rx="2" fill="#f4f1ea"/>
+      <rect x="67" y="38" width="4" height="6" fill="#1b222a"/>
+      <rect x="90" y="38" width="4" height="6" fill="#1b222a"/>
+      <rect x="68" y="38" width="2" height="2" fill="#fff"/><rect x="91" y="38" width="2" height="2" fill="#fff"/>
 
-      <!-- nose/mouth -->
-      <rect x="75" y="46" width="5" height="4" fill="#cf7f78"/>
-      <path d="M77 50 V53 M77 53 H72 M77 53 H82"
-            stroke="#3f3a55" stroke-width="2" fill="none"/>
+      <!-- nose and smile -->
+      <rect x="79" y="48" width="5" height="4" fill="#cf8580"/>
+      <path d="M81 52 V55 M81 55 H76 M81 55 H86"
+            fill="none" stroke="#313842" stroke-width="2"/>
 
       <!-- whiskers -->
-      <path d="M64 49 H52 M64 54 H50 M91 49 H103 M91 54 H105"
-            stroke="#5b556d" stroke-width="2"/>
+      <path d="M66 50 H52 M66 55 H50 M96 50 H109 M96 55 H111"
+            stroke="#69717b" stroke-width="2"/>
 
-      <!-- collar + star -->
-      <rect x="59" y="62" width="31" height="5" fill="#91c9bf"/>
-      <path d="M75 64 l3 5 6 1-4 4 1 6-6-3-6 3 1-6-4-4 6-1z"
-            fill="#d9b75f" stroke="#6a5b32" stroke-width="1"/>
+      <!-- muted teal collar -->
+      <rect x="61" y="65" width="38" height="5" fill="#6f9f99"/>
+      <rect x="78" y="69" width="6" height="6" rx="1" fill="#c6a957"/>
 
-      <!-- subtle cheek pixels -->
-      <rect x="60" y="51" width="3" height="3" fill="#e4aaa4"/>
-      <rect x="92" y="51" width="3" height="3" fill="#e4aaa4"/>
+      <!-- cheek pixels -->
+      <rect x="65" y="54" width="3" height="3" fill="#dfaaa5" opacity=".7"/>
+      <rect x="94" y="54" width="3" height="3" fill="#dfaaa5" opacity=".7"/>
     </g>
   </g>
 </svg>
