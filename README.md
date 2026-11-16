@@ -1,6 +1,6 @@
 <h1 align="center">Hey, I'm Luis 👋</h1>
 
-<p align="center"><b>Yale Computational Biology · UW Biochemistry + Data Science · Biology × ML × Product</b></p>
+<p align="center"><b>Yale Computational Biology · UW Biochemistry + Data Science · Scientific AI × Platforms × Product</b></p>
 
 <p align="center">
   <img src="assets/profile-loop.svg" alt="Animated biology ML product banner" width="900">
@@ -24,13 +24,18 @@
 
 - 🧬 **Yale MS in Computational Biology & Bioinformatics**
 - 🧪 **UW BS in Biochemistry + Data Science**
-- 🤖 I like **ML for biology**, especially protein, clinical, and bioinformatics problems
-- 🛠️ I’ve worked across **research, product, solutions engineering, and scientific platforms**
-- 🧠 I enjoy turning messy science into something people can actually use
-- 📦 I like projects that go all the way from **data → model → product**
+- 🤖 I build **ML and AI systems for biology**, from protein and clinical problems to evidence retrieval
+- 🛠️ I’ve worked across **research, product, solutions engineering, scientific platforms, and production AI**
+- 🧠 I enjoy turning messy science into systems people can actually use and trust
+- 📦 I like projects that go all the way from **data → model/retrieval → API → product**
 - 🚫 I am not emotionally attached to notebooks named `final_v7_REAL.ipynb`
 
 ## 🧪 Things I’ve worked on
+
+- 🤖 **Production AI / evidence systems**
+  - retrieval + grounded synthesis
+  - evaluation + abstention
+  - APIs, observability, CI, and deployment
 
 - 🧬 **Protein design / protein ML**
   - Baker Lab / Institute for Protein Design
@@ -50,6 +55,12 @@
   - “how do we make this actually work for users?”
 
 ## 🚀 Featured projects
+
+- 🔎 [**Biomed Evidence Engine**](https://github.com/ylc22/biomed-evidence-engine)
+  - production-style scientific evidence assistant
+  - hybrid retrieval + citation-first answers + explicit abstention
+  - eval harness, FastAPI, observability, Docker, CI, React/TypeScript
+  - built around trustworthy AI system design rather than a notebook demo
 
 - ⚙️ [**Scientific Workflow Control Plane**](https://github.com/ylc22/scientific-workflow-control-plane)
   - FastAPI + SQLite + Streamlit
@@ -87,7 +98,7 @@
 - 🧩 I contribute to public repositories when I can add something concrete rather than drive-by noise
 - 📝 Recent example: implementation guidance on [PITBridge #7](https://github.com/dev-belly/PITBridge/issues/7) around pandas/CSV adapters, temporal validation, revisions, tombstones, and missing-value handling
 - 🔍 I like contributions where I can read the existing contract first, identify edge cases, and leave something maintainers can actually use
-- 🦈 More merged PRs coming; less “changed one comma for the graph”
+- 🦈 I care more about substantive contributions and useful review than activity for activity’s sake
 
 ## 🧠 My preferred workflow
 
@@ -107,6 +118,8 @@
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Nextflow-3AC486?logo=nextflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white" />
@@ -156,9 +169,9 @@
 
 ### TL;DR
 
-- biology person who likes ML
+- biology person who likes ML and systems
 - ML person who still cares about biology
-- likes building things people can use
+- likes building trustworthy AI and scientific products people can use
 - likes serious work
 - does not believe serious work has to look serious all the time
 
