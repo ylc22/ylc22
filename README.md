@@ -28,7 +28,6 @@
 - 🛠️ I’ve worked across **research, product, solutions engineering, scientific platforms, and production AI**
 - 🧠 I enjoy turning messy science into systems people can actually use and trust
 - 📦 I like projects that go all the way from **data → model/retrieval → API → product**
-- 🚫 I am not emotionally attached to notebooks named `final_v7_REAL.ipynb`
 
 ## 🧪 Things I’ve worked on
 
