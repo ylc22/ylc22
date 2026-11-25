@@ -172,7 +172,7 @@
 - ML person who still cares about biology
 - likes building trustworthy AI and scientific products people can use
 - likes serious work
-- does not believe serious work has to look serious all the time
+- does not believe serious work has to look serious all the time!
 
 ---
 
