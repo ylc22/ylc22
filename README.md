@@ -24,7 +24,7 @@
 
 - 🧬 **Yale MS in Computational Biology & Bioinformatics**
 - 🧪 **UW BS in Biochemistry + Data Science**
-- 🤖 I build **ML and AI systems for biology**, from protein and clinical problems to evidence retrieval
+- 🤖 I build **ML and AI systems for biology**, from protein and clinical problems to single-cell perturbation modeling and evidence retrieval
 - 🛠️ I’ve worked across **research, product, solutions engineering, scientific platforms, and production AI**
 - 🧠 I enjoy turning messy science into systems people can actually use and trust
 - 📦 I like projects that go all the way from **data → model/retrieval → API → product**
@@ -54,6 +54,12 @@
   - “how do we make this actually work for users?”
 
 ## 🚀 Featured projects
+
+- 🧫 [**Cell Perturbation ML Platform**](https://github.com/ylc22/cell-perturbation-ml-platform)
+  - single-cell perturbation response modeling with leakage-aware evaluation
+  - DuckDB + SQL analytics, experiment registry, FastAPI inference, drift monitoring
+  - Docker + CI + AWS production reference architecture
+  - designed to show end-to-end data science, ML engineering, bioinformatics, and solutions architecture
 
 - 🔎 [**Biomed Evidence Engine**](https://github.com/ylc22/biomed-evidence-engine)
   - production-style scientific evidence assistant
